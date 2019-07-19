@@ -130,5 +130,9 @@ def wmdo(wvvecs, ref, cand, missing, dim, delta, alpha):
             missingwords += 1
     missingratio = missingwords / len(cand_list)
     missing = alpha * missingratio
+    
+    penalty += missing
 
+    wmd += penalty
+    
     return wmd
