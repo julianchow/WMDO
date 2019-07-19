@@ -12,3 +12,8 @@ The calculation of the metric is done through the `wmdo()` method, which takes s
 
 ## Results
 The value returned from the metric calculation is a non-negative number. This is an error metric, where the lower the WMDO score the higher the translation quality, so should give a negative correlation if a series of translations are compared with human scores. 
+
+## Contributors
+Julian Chow
+Pranava Madhyastha
+Lucia Specia
